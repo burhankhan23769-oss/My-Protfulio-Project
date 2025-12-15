@@ -1,0 +1,111 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(0,0,0,0.85);
+}
+.nav-link, .navbar-brand {
+  color: white !important;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1492724441997-5dc865305da7");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+.hero-profile {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  margin-bottom: 15px;
+}
+
+/* Sections */
+section {
+  padding: 90px 0;
+}
+
+/* Skills */
+.skill-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.skill-card:hover {
+  transform: translateY(-8px);
+}
+.skill-card img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+/* Projects */
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Contact */
+.contact-box {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 span{
+    color: rgb(187, 175, 13);
+    font-weight: bold;
+}
+.hero-content p span{
+    color: rgb(187, 175, 13);
+    font-weight: bold;
+}
+.container a span{
+    color: orange;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: blue !important;
+}
